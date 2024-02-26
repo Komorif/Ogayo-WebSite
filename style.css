@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+
+    font: 40px beermoney, denkone;
+}
+
+.container{
+    margin: 0px 30px;
+}
+
+.header{
+   background-image: url(images/bg.jpg);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/*Главная линия*/
+.header-line{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 37.39px;
+}
+
+.logo-items{
+    height: 152px;
+    margin-right: 500px;
+}
+
+.nav-logo{
+    color: black;
+    text-decoration: none;
+    font-family: "denkone";
+    font-size: 66px;
+}
+
+.nav-logo:hover{
+    color:gray;
+}
+
+.nav{
+    position: relative;
+    text-align: center;
+}
+
+.nav-item{
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 30px;
+}
+
+.nav-item:hover {
+    color:gray;
+}
+
+
+/*Галерея картинок*/
+.header-gallery{
+    position: relative;
+    text-align: center;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.poster-line{
+    position: absolute;
+    top: 170px; 
+}
+
+.name-game{
+    position: absolute;
+    font-size: 100px;
+    top: -100px;
+    left: -900px;
+    color: white;
+}
+
+.description-game{
+    position: absolute;
+    font-size: 100px;
+    top: 20px;
+    left: -900px;
+    color: white;
+}
+
+/*Анимация картинок в галлерее*/
+.scale{
+    display: inline-block;
+    overflow: hidden;
+}
+
+.scale img{
+    transition: 1s;
+    display: block;
+}
+
+.scale img:hover{
+    transform: scale(1.2);
+}
+
+/*Картинки*/
+.poster-item-1{
+    position: absolute;
+    font-size: 5rem;
+    top: 0px;
+    left: 300px;
+}
+
+.poster-item-2{
+    position: absolute;
+    font-size: 5rem;
+    top: 260px;
+    left: -30px;
+}
+
+.poster-item-3{
+    position: absolute;
+    font-size: 5rem;
+    top: 520px;
+    left: 400px;
+}
+
+
+/*Карточки*/
+.cards-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 400px;
+    height: 199px;
+    
+    margin-right: 9px;
+    
+    background-image: url(images/ds.png);
+    background-repeat: no-repeat;
+
+    margin-top: -80px;
+}
+
+.card-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.card-logo{
+    display: flex;
+    justify-content: center;
+    padding-right: 31px;
+    padding-top: 0px;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+
+
+
+
+/*Шрифты*/
+@font-face{
+    font-family: beermoney;
+    font-weight: normal;
+    src: url(fonts/beer-money.ttf);
+}
+
+@font-face{
+    font-family: denkone;
+    font-weight: normal;
+    src: url(fonts/DenkOne.ttf);
+}
